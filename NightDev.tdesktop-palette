@@ -20,7 +20,7 @@ imageBgTransparent: #ffffff; // image background when displaying an image with o
 activeButtonBg: #2da192; // default active button background
 activeButtonBgOver: #32a898; // default active button background with mouse over
 activeButtonBgRipple: #42b8a8; // default active button ripple effect
-activeButtonFg: #ffffff; // default active button text
+activeButtonFg: #f5f5f5; // default active button text
 activeButtonFgOver: #ffffff; // default active button text with mouse over
 activeButtonSecondaryFg: #8ee4d9; // default active button additional text (selected messages counter in forward / delete buttons)
 activeButtonSecondaryFgOver: activeButtonSecondaryFg; // default active button additional text with mouse over
@@ -96,10 +96,10 @@ layerBg: #0000007f; // box and main menu background layer fade
 cancelIconFg: #666666; // default for settings close icon and box search cancel icon
 cancelIconFgOver: #dcdcdc; // default for settings close icon and box search cancel icon with mouse over
 boxBg: windowBg; // box background
-boxTextFg: windowFg; // box text
+boxTextFg: #f5f5f5; // box text
 boxTextFgGood: #56dbce; // accepted box text (like when choosing username that is not occupied)
 boxTextFgError: #d84d4d; // rejecting box text (like when choosing username that is occupied)
-boxTitleFg: #ebebeb; // box title text
+boxTitleFg: #f5f5f5; // box title text
 boxSearchBg: #282e33; // box search field background (like in contacts box)
 boxTitleAdditionalFg: #808080; // box title additional text (like in create group box when you see chosen members count)
 boxTitleCloseFg: cancelIconFg; // settings close icon and box search cancel icon (like in contacts box)
@@ -107,7 +107,7 @@ boxTitleCloseFgOver: cancelIconFgOver; // settings close icon and box search can
 membersAboutLimitFg: #5e6065; // text in channel members box about the limit (max 200 last members are shown)
 contactsBg: #222528; // contacts (and some other) box row background
 contactsBgOver: #282e33; // contacts (and some other) box row background with mouse over
-contactsNameFg: boxTextFg; // contacts (and some other) box row name text
+contactsNameFg: #ffffff; // contacts (and some other) box row name text
 contactsStatusFg: #808080; // contacts (and some other) box row additional text (like last seen stamp)
 contactsStatusFgOver: #808080; // contacts (and some other) box row additional text (like last seen stamp) with mouse over
 contactsStatusFgOnline: #55e1d3; // contacts (and some other) box row active additional text (like online status)
@@ -129,11 +129,11 @@ introCoverPlaneTop: #ffffff; // intro plane part
 dialogsMenuIconFg: menuIconFg; // main menu and lock telegram icon
 dialogsMenuIconFgOver: menuIconFgOver; // main menu and lock telegram icon with mouse over
 dialogsBg: windowBg; // chat list background
-dialogsNameFg: #f5f5f5; // chat list name text
+dialogsNameFg: #f0f0f0; // chat list name text
 dialogsChatIconFg: dialogsNameFg; // chat list group or channel icon
 dialogsDateFg: #6d727c; // chat list date text
-dialogsTextFg: #8d939e; // chat list message text
-dialogsTextFgService: #ebebeb; // chat list group sender name text (or media message type text)
+dialogsTextFg: #6d737c; // chat list message text
+dialogsTextFgService: #6d737c; // chat list group sender name text (or media message type text)
 dialogsDraftFg: #ec6657; // chat list draft label
 dialogsVerifiedIconBg: #53edde; // chat list verified icon background
 dialogsVerifiedIconFg: #282e33; // chat list verified icon check
@@ -143,7 +143,7 @@ dialogsUnreadBg: #05a091; // chat list unread badge background for not muted cha
 dialogsUnreadBgMuted: #495159; // chat list unread badge background for muted chat
 dialogsUnreadFg: #ffffff; // chat list unread badge text
 dialogsBgOver: #353c43; // chat list background with mouse over
-dialogsNameFgOver: windowBoldFgOver; // chat list name text with mouse over
+dialogsNameFgOver: #ffffff; // chat list name text with mouse over
 dialogsChatIconFgOver: dialogsNameFgOver; // chat list group or channel icon with mouse over
 dialogsDateFgOver: #6d727c; // chat list date text with mouse over
 dialogsTextFgOver: #a3a7ae; // chat list message text with mouse over
@@ -157,7 +157,7 @@ dialogsUnreadBgOver: #009687; // chat list unread badge background for not muted
 dialogsUnreadBgMutedOver: #555e67; // chat list unread badge background for muted chat with mouse over
 dialogsUnreadFgOver: dialogsUnreadFg; // chat list unread badge text with mouse over
 dialogsBgActive: #009687; // chat list background for current (active) chat
-dialogsNameFgActive: windowFgActive; // chat list name text for current (active) chat
+dialogsNameFgActive: #ffffff; // chat list name text for current (active) chat
 dialogsChatIconFgActive: dialogsNameFgActive; // chat list group or channel icon for current (active) chat
 dialogsDateFgActive: windowFgActive; // chat list date text for current (active) chat
 dialogsTextFgActive: windowFgActive; // chat list message text for current (active) chat
@@ -242,9 +242,9 @@ historyScrollBarBg: #8989897a; // scroll bar current rectangle, the bar itself i
 historyScrollBarBgOver: #6b6b6bbc; // scroll bar current rectangle with mouse over it in the chat view (adjusted)
 historyScrollBg: #5f5f5f4c; // scroll bar background (adjusted)
 historyScrollBgOver: #6262626b; // scroll bar background with mouse over the scroll bar (adjusted)
-msgInBg: #33393f; // inbox message background
+msgInBg: #373f47; // inbox message background
 msgInBgSelected: #009687; // inbox selected message background (and background of selected text in those messages)
-msgOutBg: #2a2f33; // outbox message background
+msgOutBg: #32393f; // outbox message background
 msgOutBgSelected: #009687; // outbox selected message background (and background of selected text in those messages)
 msgSelectOverlay: #35d4bf4c; // overlay which is filling the media parts of selected messages (like in selected photo message)
 msgStickerOverlay: #35d4bf7f; // overlay which is filling the selected sticker message
